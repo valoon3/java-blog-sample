@@ -31,4 +31,9 @@ public class Board {
         board.content = content;
         return board;
     }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
